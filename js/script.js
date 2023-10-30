@@ -59,8 +59,8 @@ createApp ({
                 activeSlides : 0
         }
     },
-    methods: {
-
+    methods: {        
+       
     }
 
     
