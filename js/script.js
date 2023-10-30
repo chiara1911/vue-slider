@@ -76,8 +76,13 @@ createApp ({
         } else{
             this.activeSlides ++;
         }
-    }
+    },
 
+    getActive(index){
+  if(this.activeSlides === index){
+this.classList.add('active')
+  }
+    }
 }
     
 }).mount('#app')
